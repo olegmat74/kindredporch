@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /go/
+Sitemap: https://kindredporch.onrender.com/sitemap.xml
