@@ -1,5 +1,5 @@
 # Kindred Porch — content (US English). Persona: Marisol, Tucson, married 12 years, writes "letters".
-HOP = "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid="
+HOP = "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid="
 GO = "/go/his-secret/"
 REV = "/his-secret-obsession-review/"
 L = []

@@ -1,138 +1,338 @@
 [
 {
 "source": "/go/his-secret",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04"
 },
 {
 "source": "/go/his-secret/",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04"
 },
 {
 "source": "/go/his-secret/home/",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04home"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04home"
+},
+{
+"source": "/go/his-secret/homeb/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04homeb"
 },
 {
 "source": "/go/his-secret/rv1/",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04rv1"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04rv1"
 },
 {
 "source": "/go/his-secret/rv2/",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04rv2"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04rv2"
 },
 {
 "source": "/go/his-secret/rv3/",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04rv3"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04rv3"
 },
 {
 "source": "/go/his-secret/q/",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04q"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04q"
+},
+{
+"source": "/go/his-secret/qb/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04qb"
+},
+{
+"source": "/go/his-secret/qc/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04qc"
 },
 {
 "source": "/go/his-secret/dn/",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04dn"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04dn"
+},
+{
+"source": "/go/his-secret/dnb/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04dnb"
+},
+{
+"source": "/go/his-secret/dnc/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04dnc"
 },
 {
 "source": "/go/his-secret/ll/",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04ll"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04ll"
+},
+{
+"source": "/go/his-secret/llb/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04llb"
+},
+{
+"source": "/go/his-secret/llc/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04llc"
 },
 {
 "source": "/go/his-secret/sp/",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04sp"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04sp"
+},
+{
+"source": "/go/his-secret/spb/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04spb"
+},
+{
+"source": "/go/his-secret/spc/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04spc"
 },
 {
 "source": "/go/his-secret/pa/",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04pa"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04pa"
+},
+{
+"source": "/go/his-secret/pab/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04pab"
+},
+{
+"source": "/go/his-secret/pac/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04pac"
 },
 {
 "source": "/go/his-secret/cm/",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04cm"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04cm"
+},
+{
+"source": "/go/his-secret/cmb/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04cmb"
+},
+{
+"source": "/go/his-secret/cmc/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04cmc"
 },
 {
 "source": "/go/his-secret/fd/",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04fd"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04fd"
+},
+{
+"source": "/go/his-secret/fdb/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04fdb"
+},
+{
+"source": "/go/his-secret/fdc/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04fdc"
 },
 {
 "source": "/go/his-secret/gf/",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04gf"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04gf"
+},
+{
+"source": "/go/his-secret/gfb/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04gfb"
+},
+{
+"source": "/go/his-secret/gfc/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04gfc"
 },
 {
 "source": "/go/his-secret/tx/",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04tx"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04tx"
+},
+{
+"source": "/go/his-secret/txb/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04txb"
+},
+{
+"source": "/go/his-secret/txc/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04txc"
 },
 {
 "source": "/go/his-secret/ap/",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04ap"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04ap"
+},
+{
+"source": "/go/his-secret/apb/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04apb"
+},
+{
+"source": "/go/his-secret/apc/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04apc"
 },
 {
 "source": "/go/his-secret/jp/",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04jp"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04jp"
+},
+{
+"source": "/go/his-secret/jpb/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04jpb"
+},
+{
+"source": "/go/his-secret/jpc/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04jpc"
 },
 {
 "source": "/go/his-secret/hb/",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04hb"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04hb"
+},
+{
+"source": "/go/his-secret/hbb/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04hbb"
+},
+{
+"source": "/go/his-secret/hbc/",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04hbc"
 },
 {
 "source": "/go/his-secret/home",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04home"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04home"
+},
+{
+"source": "/go/his-secret/homeb",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04homeb"
 },
 {
 "source": "/go/his-secret/rv1",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04rv1"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04rv1"
 },
 {
 "source": "/go/his-secret/rv2",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04rv2"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04rv2"
 },
 {
 "source": "/go/his-secret/rv3",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04rv3"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04rv3"
 },
 {
 "source": "/go/his-secret/q",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04q"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04q"
+},
+{
+"source": "/go/his-secret/qb",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04qb"
+},
+{
+"source": "/go/his-secret/qc",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04qc"
 },
 {
 "source": "/go/his-secret/dn",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04dn"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04dn"
+},
+{
+"source": "/go/his-secret/dnb",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04dnb"
+},
+{
+"source": "/go/his-secret/dnc",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04dnc"
 },
 {
 "source": "/go/his-secret/ll",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04ll"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04ll"
+},
+{
+"source": "/go/his-secret/llb",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04llb"
+},
+{
+"source": "/go/his-secret/llc",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04llc"
 },
 {
 "source": "/go/his-secret/sp",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04sp"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04sp"
+},
+{
+"source": "/go/his-secret/spb",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04spb"
+},
+{
+"source": "/go/his-secret/spc",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04spc"
 },
 {
 "source": "/go/his-secret/pa",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04pa"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04pa"
+},
+{
+"source": "/go/his-secret/pab",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04pab"
+},
+{
+"source": "/go/his-secret/pac",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04pac"
 },
 {
 "source": "/go/his-secret/cm",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04cm"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04cm"
+},
+{
+"source": "/go/his-secret/cmb",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04cmb"
+},
+{
+"source": "/go/his-secret/cmc",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04cmc"
 },
 {
 "source": "/go/his-secret/fd",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04fd"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04fd"
+},
+{
+"source": "/go/his-secret/fdb",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04fdb"
+},
+{
+"source": "/go/his-secret/fdc",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04fdc"
 },
 {
 "source": "/go/his-secret/gf",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04gf"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04gf"
+},
+{
+"source": "/go/his-secret/gfb",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04gfb"
+},
+{
+"source": "/go/his-secret/gfc",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04gfc"
 },
 {
 "source": "/go/his-secret/tx",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04tx"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04tx"
+},
+{
+"source": "/go/his-secret/txb",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04txb"
+},
+{
+"source": "/go/his-secret/txc",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04txc"
 },
 {
 "source": "/go/his-secret/ap",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04ap"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04ap"
+},
+{
+"source": "/go/his-secret/apb",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04apb"
+},
+{
+"source": "/go/his-secret/apc",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04apc"
 },
 {
 "source": "/go/his-secret/jp",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04jp"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04jp"
+},
+{
+"source": "/go/his-secret/jpb",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04jpb"
+},
+{
+"source": "/go/his-secret/jpc",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04jpc"
 },
 {
 "source": "/go/his-secret/hb",
-"dest": "https://22b4ams7habeix9fso34hppp22.hop.clickbank.net/?&tid=pin04hb"
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04hb"
+},
+{
+"source": "/go/his-secret/hbb",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04hbb"
+},
+{
+"source": "/go/his-secret/hbc",
+"dest": "https://4ecd6gtdjbopb3b6jh4dippo0x.hop.clickbank.net/?tid=pin04hbc"
 }
 ]

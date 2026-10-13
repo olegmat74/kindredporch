@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Kindred Porch static builder -> public/ (Render static site). Go links: /go/his-secret/<code>/ (Render redirect rules)."""
-import pathlib, shutil, html, datetime, json
+import pathlib, shutil, html, datetime, json, sys
+sys.path.insert(0, "/workspace/clickbank/tools"); from ctxlinks import inject
 from content import L, GO, REV, HOP
 R = pathlib.Path(__file__).parent; OUT = R/"public"; URL = "https://kindredporch.onrender.com"
 shutil.rmtree(OUT, ignore_errors=True); OUT.mkdir()
@@ -9,6 +10,12 @@ VERBS = ["Read the guide he'd never tell you about", "See what James Bauer teach
          "Discover the instinct", "Get the guide", "See if it fits you"]
 def go(code=""): return GO + (code + "/" if code else "")
 def btn(i, code, cls="pill"): return f'<a class="{cls}" href="{go(code)}" rel="nofollow sponsored noopener" target="_blank">{VERBS[i % len(VERBS)]}</a>'
+CTX = ["<p>The idea that finally made this click for me came from <a class=\"ink\" href=\"{u}\" rel=\"nofollow sponsored noopener\" target=\"_blank\">James Bauer's free presentation on the hero instinct</a>.</p>",
+ "<p>If you want the why behind this, <a class=\"ink\" href=\"{u}\" rel=\"nofollow sponsored noopener\" target=\"_blank\">His Secret Obsession</a> explains what makes a man feel needed, and it changed how I phrase things.</p>",
+ "<p>I borrowed a few exact phrases for this from <a class=\"ink\" href=\"{u}\" rel=\"nofollow sponsored noopener\" target=\"_blank\">a relationship coach's guide</a> and rewrote them in my own voice.</p>",
+ "<p>A friend once asked me where I learned to talk to my husband like this. Honestly, <a class=\"ink\" href=\"{u}\" rel=\"nofollow sponsored noopener\" target=\"_blank\">this guide on what drives men</a> was a big part of it.</p>",
+ "<p>Want to understand what he isn't saying out loud? <a class=\"ink\" href=\"{u}\" rel=\"nofollow sponsored noopener\" target=\"_blank\">Watch the free His Secret Obsession video</a> before you spend anything.</p>",
+ "<p>For more on why small words of respect land so hard with men, <a class=\"ink\" href=\"{u}\" rel=\"nofollow sponsored noopener\" target=\"_blank\">see what James Bauer teaches</a>.</p>"]
 SHELVES = []
 for a in L:
     if a["shelf"] not in SHELVES: SHELVES.append(a["shelf"])
@@ -29,7 +36,7 @@ def write(p, s):
 for i, a in enumerate(L):
     style = ["postcard", "ribbon", "note"][i % 3]
     box = f'<aside class="cta {style}">{a["cta"]}{btn(i, a["code"])}<small>affiliate link · <a href="/disclosure/">how this site earns</a></small></aside>'
-    body = a["body"]
+    body = inject(a["body"], [CTX[(2*i+k) % len(CTX)].format(u=go(a["code"] + "bc"[k])) for k in range(2)])
     if a["cta_pos"] == "mid":
         parts = body.split("<h2>"); k = max(2, len(parts)//2)
         body = "<h2>".join(parts[:k]) + box + "<h2>" + "<h2>".join(parts[k:])
@@ -45,6 +52,7 @@ for s in SHELVES:
     idx += f'<section class="shelfblock" id="{anchor(s)}"><h2>{s}</h2><ol>{items}</ol></section>'
 home = f"""<section class="hello"><p>Hi, I'm Marisol. Twelve years married, two kids, one slightly crooked porch swing where most of our best talks happen. I write these letters for women who want a closer, warmer relationship without playing games.</p></section>
 <section class="feature"><div><p class="shelf">the one resource I point friends to</p><h2>Why does he pull close one month and drift the next?</h2><p>Relationship coach James Bauer's guide explains an instinct most men never put into words. I read it, tried it, and wrote <a href="{REV}">an honest review</a>.</p></div>{btn(4, "home", "pill big")}<small>affiliate link</small></section>
+<p class="homeink">Not sure where to start? Pick a letter below, or <a class="ink" href="{go("homeb")}" rel="nofollow sponsored noopener" target="_blank">watch the free hero-instinct presentation</a> first. <small>(affiliate link)</small></p>
 <div class="index">{idx}</div>"""
 write("/", page("Kindred Porch — honest letters on love and long-term relationships", "Warm, practical relationship notes for women: date nights, conversation questions, appreciation and keeping the spark alive.", home, "/", "home"))
 # review / compare
@@ -78,7 +86,7 @@ for f in ["porch.css", "lantern.svg"]: shutil.copy(R/"static"/f, OUT/f)
 (OUT/"robots.txt").write_text(f"User-agent: *\nDisallow: /go/\nSitemap: {URL}/sitemap.xml\n")
 urls = ["/", REV] + [f"/{a['slug']}/" for a in L] + ["/about/"]
 (OUT/"sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "".join(f"<url><loc>{URL}{u}</loc><lastmod>{today}</lastmod></url>" for u in urls) + "</urlset>")
-codes = ["home", "rv1", "rv2", "rv3"] + [a["code"] for a in L]
+codes = ["home", "homeb", "rv1", "rv2", "rv3"] + [a["code"] + x for a in L for x in ("", "b", "c")]
 json.dump([{"source": "/go/his-secret", "dest": HOP + "pin04"}, {"source": "/go/his-secret/", "dest": HOP + "pin04"}] +
           [{"source": f"/go/his-secret/{c}/", "dest": HOP + "pin04" + c} for c in codes] + [{"source": f"/go/his-secret/{c}", "dest": HOP + "pin04" + c} for c in codes],
           open(R/"redirects.json", "w"), indent=0)
