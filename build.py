@@ -91,3 +91,5 @@ json.dump([{"source": "/go/his-secret", "dest": HOP + "pin04"}, {"source": "/go/
           [{"source": f"/go/his-secret/{c}/", "dest": HOP + "pin04" + c} for c in codes] + [{"source": f"/go/his-secret/{c}", "dest": HOP + "pin04" + c} for c in codes],
           open(R/"redirects.json", "w"), indent=0)
 print("built", len(urls), "pages;", len(codes), "go codes")
+
+import subprocess; subprocess.run([sys.executable, "/workspace/clickbank/tools/optin_inject.py", "pin04", str(OUT)], check=True)  # email opt-in
